@@ -68,7 +68,7 @@ ansible.builtin.lineinfile:
     path: /etc/default/vector
     line: "VECTOR_CONFIG_YAML=/etc/vector/config.yaml"
 ```
-7. Создание директории `vector` для правил обработки
+7. Создание директории `/etc/vector` для правил обработки
 ``` terraform
 ansible.builtin.file:
     path: "/etc/vector"
